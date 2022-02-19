@@ -22,7 +22,8 @@ package _30__被围绕的区域
  @Description: 130.go
 */
 
-
+// 时间复杂度：O(row*col)
+// 空间复杂度：O(1)原地修改，visit[][]可以省略
 func solve(board [][]byte)  {
     if len(board) == 0 || len(board[0]) == 0 {
         return
